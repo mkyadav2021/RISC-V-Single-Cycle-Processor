@@ -9,6 +9,9 @@ The single-cycle microarchitecture executes an entire instruction in one cycle. 
 
 
 **Units:**
+
+While writing code, I have mentioned page number of book for easier refernce of theory.
+
   1. Arithmetic Logical Unit (ALU): performs ADD, SUB, OR, AND, SLT operation 
 <img width="793" height="423" alt="image" src="https://github.com/user-attachments/assets/448abb58-d02b-4892-96c8-a8f6a961e1e6" />
 
