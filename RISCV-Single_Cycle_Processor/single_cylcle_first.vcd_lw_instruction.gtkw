@@ -1,0 +1,91 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Thu Sep 11 06:56:13 2025
+[*]
+[dumpfile] "/home/mitochondria/Desktop/RISCV-Single_Cycle_Processor/4_Single_Cycle_Datapath/single cycle.vcd"
+[dumpfile_mtime] "Thu Sep 11 06:28:54 2025"
+[dumpfile_size] 4134
+[savefile] "/home/mitochondria/Desktop/single_cylcle_first.vcd_lw_instruction.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -1 -1
+*-6.600000 400 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] single_cycle_module_testbech.
+[treeopen] single_cycle_module_testbech.scm.
+[sst_width] 278
+[signals_width] 310
+[sst_expanded] 1
+[sst_vpaned_height] 308
+@28
+single_cycle_module_testbech.clk
+single_cycle_module_testbech.rst
+@800200
+-PC
+@22
+single_cycle_module_testbech.scm.pc.PC[31:0]
+single_cycle_module_testbech.scm.pc.PC_NEXT[31:0]
+@1000200
+-PC
+@800200
+-Instruction Memory
+@22
+single_cycle_module_testbech.scm.im.A[31:0]
+single_cycle_module_testbech.scm.im.RD[31:0]
+@1000200
+-Instruction Memory
+@800200
+-Sign Extend
+@22
+single_cycle_module_testbech.scm.se.Instr[31:0]
+single_cycle_module_testbech.scm.se.ImmExt[31:0]
+@1000200
+-Sign Extend
+@800200
+-Register File
+@22
+single_cycle_module_testbech.scm.rf.A1[4:0]
+single_cycle_module_testbech.scm.rf.A2[4:0]
+@23
+single_cycle_module_testbech.scm.rf.A3[4:0]
+@22
+single_cycle_module_testbech.scm.rf.RD1[31:0]
+single_cycle_module_testbech.scm.rf.RD2[31:0]
+single_cycle_module_testbech.scm.rf.RD3[31:0]
+single_cycle_module_testbech.scm.rf.WD3[31:0]
+@28
+single_cycle_module_testbech.scm.rf.WE3
+@1000200
+-Register File
+@800200
+-ALU
+@22
+single_cycle_module_testbech.scm.alu.A[31:0]
+single_cycle_module_testbech.scm.alu.B[31:0]
+@28
+single_cycle_module_testbech.scm.alu.ALUControl[2:0]
+@22
+single_cycle_module_testbech.scm.alu.ALUResult[31:0]
+@1000200
+-ALU
+@800200
+-Control Unit
+@22
+single_cycle_module_testbech.scm.maindecoder.op[6:0]
+@28
+single_cycle_module_testbech.scm.aludecoder.funct3[2:0]
+single_cycle_module_testbech.scm.aludecoder.ALUControl[2:0]
+single_cycle_module_testbech.scm.maindecoder.RegWrite
+@1000200
+-Control Unit
+@800200
+-Data Memory
+@22
+single_cycle_module_testbech.scm.dm.A[31:0]
+single_cycle_module_testbech.scm.dm.RD[31:0]
+single_cycle_module_testbech.scm.dm.WD[31:0]
+@28
+single_cycle_module_testbech.scm.dm.WE
+@1000200
+-Data Memory
+[pattern_trace] 1
+[pattern_trace] 0
