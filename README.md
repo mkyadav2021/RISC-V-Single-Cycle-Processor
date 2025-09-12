@@ -84,3 +84,7 @@ Peroforms Logical OR operation between content of register x6 and content of reg
 
 
 
+<img width="687" height="394" alt="image" src="https://github.com/user-attachments/assets/4e0f7026-4f7c-4c96-a88f-42decacc423d" />
+
+
+
