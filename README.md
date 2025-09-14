@@ -55,8 +55,7 @@ While writing code, I have mentioned page number of book for easier refernce of 
 
 
 Example: lw x6, -4(x9) (I-type)
-Wokring of load word (lw) instruction: loads 32bit from data memory
-Base register(x9) holds an address value, on this address value an immediate offset (-4) is added and from this resultant address of data memory a 32bit data is loaded into destination register x6.
+Wokring of load word (lw) instruction:  takes 32bit from register(x9) which is an address value, on this address value an immediate offset (-4) is added and from this resultant address of data memory a 32bit data is loaded into register x6.
 
 <img width="593" height="202" alt="image" src="https://github.com/user-attachments/assets/c6cb839a-1695-4399-96a1-938f160106f2" />
 <img width="602" height="183" alt="image" src="https://github.com/user-attachments/assets/bd014b54-4d80-429e-8f08-5a8c01d1c4a1" />
@@ -71,8 +70,7 @@ Base register(x9) holds an address value, on this address value an immediate off
 
 
 Example: sw x6, 8(x9)  (S-type)
-store word into from instruction regiester to data register
-X9 holds a memory address value, immediate offset 8 is added to this address value. On this obtained address value of data memory, the data from x6 register will be stored. 
+takes 32bit from register(x9) which is an address value, on this address value an immediate offset (8) is added and onto this resultant address of data memory a 32bit data is stored from register x6.
 
 <img width="634" height="314" alt="image" src="https://github.com/user-attachments/assets/d3a66791-3c65-49f4-8bdd-ee7ce859356f" />
 <img width="1920" height="1080" alt="sw" src="https://github.com/user-attachments/assets/388611ba-67d8-45b7-814e-bfb51ffeda4f" />
