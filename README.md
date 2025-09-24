@@ -1,3 +1,6 @@
+[Codes to the project can be made available upon request]
+
+<br>
 # RISC-V-Single-Cycle-Processor
 Reference Textbook: 
 1. Digital Design and Computer Architecture RISC-V Edition
