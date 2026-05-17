@@ -1,5 +1,3 @@
-[The project codes can be made available upon reuqest.]
-
 <br>
 # RISC-V-Single-Cycle-Processor
 Reference Textbook: 
