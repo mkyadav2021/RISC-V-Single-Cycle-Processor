@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/mitochondria/Desktop/RISCV-Single_Cycle_Processor status)"
+    ]
+  }
+}

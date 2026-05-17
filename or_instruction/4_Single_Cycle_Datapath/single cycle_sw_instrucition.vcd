@@ -1,0 +1,313 @@
+$date
+	Thu Sep 11 15:36:09 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module single_cycle_module_testbech $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$scope module scm $end
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var wire 1 # RegWrite_wire $end
+$var wire 32 $ ReadData_wire [31:0] $end
+$var wire 32 % RDInstr_wire [31:0] $end
+$var wire 32 & RD2_wire [31:0] $end
+$var wire 32 ' RD1_wire [31:0] $end
+$var wire 32 ( PC_wire [31:0] $end
+$var wire 32 ) PCPlus4_wire [31:0] $end
+$var wire 1 * MemWrite_wire $end
+$var wire 2 + ImmSrc_wire [1:0] $end
+$var wire 32 , ImmExt_wire [31:0] $end
+$var wire 32 - ALUResult_wire [31:0] $end
+$var wire 2 . ALUOp_wire [1:0] $end
+$var wire 3 / ALUControl_wire [2:0] $end
+$scope module alu $end
+$var wire 32 0 ALUResult [31:0] $end
+$var wire 1 1 C $end
+$var wire 1 2 V $end
+$var wire 32 3 a_and_b [31:0] $end
+$var wire 32 4 a_or_b [31:0] $end
+$var wire 32 5 not_b [31:0] $end
+$var wire 32 6 sum [31:0] $end
+$var wire 32 7 slt [31:0] $end
+$var wire 32 8 mux_2 [31:0] $end
+$var wire 32 9 mux_1 [31:0] $end
+$var wire 1 : cout $end
+$var wire 1 ; Ze $end
+$var wire 1 < N $end
+$var wire 32 = B [31:0] $end
+$var wire 3 > ALUControl [2:0] $end
+$var wire 32 ? A [31:0] $end
+$upscope $end
+$scope module aludecoder $end
+$var wire 3 @ funct3 [2:0] $end
+$var wire 1 A funct7 $end
+$var wire 1 B op $end
+$var wire 2 C concatenation [1:0] $end
+$var wire 2 D ALUOp [1:0] $end
+$var wire 3 E ALUControl [2:0] $end
+$upscope $end
+$scope module dm $end
+$var wire 32 F A [31:0] $end
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var wire 1 * WE $end
+$var wire 32 G WD [31:0] $end
+$var wire 32 H RD [31:0] $end
+$upscope $end
+$scope module im $end
+$var wire 1 " rst $end
+$var wire 32 I RD [31:0] $end
+$var wire 32 J A [31:0] $end
+$upscope $end
+$scope module maindecoder $end
+$var wire 1 K PSCrc $end
+$var wire 7 L op [6:0] $end
+$var wire 1 M zero $end
+$var wire 1 N branch $end
+$var wire 1 O ResultSrc $end
+$var wire 1 # RegWrite $end
+$var wire 1 * MemWrite $end
+$var wire 2 P ImmSrc [1:0] $end
+$var wire 1 Q ALUSrc $end
+$var wire 2 R ALUOp [1:0] $end
+$upscope $end
+$scope module pc $end
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var wire 32 S PC_NEXT [31:0] $end
+$var reg 32 T PC [31:0] $end
+$upscope $end
+$scope module pcaddermodule $end
+$var wire 32 U a [31:0] $end
+$var wire 32 V b [31:0] $end
+$var wire 32 W c [31:0] $end
+$upscope $end
+$scope module rf $end
+$var wire 5 X A1 [4:0] $end
+$var wire 5 Y A2 [4:0] $end
+$var wire 5 Z A3 [4:0] $end
+$var wire 32 [ RD3 [31:0] $end
+$var wire 32 \ WD3 [31:0] $end
+$var wire 1 # WE3 $end
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var wire 32 ] RD2 [31:0] $end
+$var wire 32 ^ RD1 [31:0] $end
+$upscope $end
+$scope module se $end
+$var wire 2 _ ImmSrc [1:0] $end
+$var wire 32 ` Instr [31:0] $end
+$var wire 32 a ImmExt [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 a
+b0 `
+b0 _
+b0 ^
+b0 ]
+b0 \
+bz [
+b0 Z
+b0 Y
+b0 X
+b100 W
+b100 V
+b0 U
+b0 T
+b100 S
+b0 R
+0Q
+b0 P
+0O
+0N
+zM
+b0 L
+0K
+b0 J
+b0 I
+b0 H
+b0 G
+b0 F
+b0 E
+b0 D
+b0 C
+0B
+0A
+b0 @
+b0 ?
+b0 >
+b0 =
+0<
+1;
+0:
+b0 9
+b0 8
+b0 7
+b0 6
+b11111111111111111111111111111111 5
+b0 4
+b0 3
+02
+01
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+0*
+b100 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+0#
+0"
+0!
+$end
+#50
+1!
+#100
+b1000 9
+b11111111111111111111111111110111 5
+1Q
+02
+b1000 ,
+b1000 =
+b1000 a
+1*
+b1 +
+b1 P
+b1 _
+0<
+b10 @
+b10 C
+1B
+b100011 L
+b1000 Z
+b110 Y
+b1001 X
+b0 7
+0;
+b10000000001100 -
+b10000000001100 0
+b10000000001100 F
+b10000000001100 8
+01
+bx $
+bx H
+bx \
+b11001001010010000100011 %
+b11001001010010000100011 I
+b11001001010010000100011 `
+b10000000001100 6
+0:
+b10000000001100 4
+b10000000000100 '
+b10000000000100 ?
+b10000000000100 ^
+b10000 &
+b10000 G
+b10000 ]
+0!
+1"
+#150
+x2
+x<
+bx /
+bx >
+bx E
+b0x 7
+x;
+bx -
+bx 0
+bx F
+bx 8
+x1
+bx 9
+bx 5
+x#
+xQ
+xK
+bx 6
+x:
+bx 4
+bx 3
+bx ,
+bx =
+bx a
+x*
+xO
+xN
+bx +
+bx P
+bx _
+bx .
+bx D
+bx R
+bx &
+bx G
+bx ]
+bx '
+bx ?
+bx ^
+xA
+bx @
+bx C
+xB
+bx L
+bx Z
+bx Y
+bx X
+bx %
+bx I
+bx `
+bx $
+bx H
+bx \
+b1000 )
+b1000 S
+b1000 W
+b100 (
+b100 J
+b100 T
+b100 U
+1!
+#200
+0!
+#250
+b1100 )
+b1100 S
+b1100 W
+b1000 (
+b1000 J
+b1000 T
+b1000 U
+1!
+#300
+0!
+#350
+b10000 )
+b10000 S
+b10000 W
+b1100 (
+b1100 J
+b1100 T
+b1100 U
+1!
+#400
+0!
